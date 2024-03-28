@@ -1,8 +1,10 @@
 # EndingsModule
-EndingsModule is an easy-to-use, Open Source module for ROBLOX to make creating story-type games easier.
+EndingsModule is an easy-to-use, Open Source [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) for [ROBLOX](https://roblox.com/) to make creating story-type games easier.
 
 Follow the creator 😎: [@ivadsiuls](https://www.roblox.com/users/5048508312/profile)
 
+
+**Basic knowledge of Roblox Studio and Lua is expected.**
 
 ## How 2 Set Up
 
@@ -10,7 +12,7 @@ Download the [latest release](https://github.com/ivadsiuls/EndingsModule/release
 
 Once downloaded, place it into ServerScriptService, or ReplicatedStorage
 
-Remember, EndingsModule cannot be used inside the client to prevent cheating.
+Remember, EndingsModule cannot be used inside the client, we do this to prevent cheating.
 
 ## Configuration 4 your game
 
@@ -37,3 +39,47 @@ local badges = {
 	TestEnding = 2780397641298388;
 }
 ```
+
+
+
+## Creating an ending (EXAMPLE)
+
+**if you'd like to look at the example yourself, enter the [Test Place](https://www.roblox.com/games/16871131982/EndingModule-Test-Place) for EndingsModule. It is uncopylocked, and you can do anything you want with it!**
+
+First, create a [RemoteEvent](https://create.roblox.com/docs/reference/engine/classes/RemoteEvent) inside [ReplicatedStorage](https://create.roblox.com/docs/reference/engine/classes/ReplicatedStorage).
+Once you've added  the RemoteEvent, insert a [Script](https://create.roblox.com/docs/reference/engine/classes/Script) in [ServerScriptService](https://create.roblox.com/docs/reference/engine/classes/ServerScriptService), and copy this code into it:
+
+```lua
+game:GetService("ReplicatedStorage").PutTheNameOfYourRemoteHere.OnServerEvent:Connect(function(player, ending)
+	local module = require(game:GetService("ReplicatedStorageOrServerScriptService"):FindFirstChild("WhateverYouNamedEndingModuleAs"))
+
+	if ending == "EndingName" then
+		module:GiveEnding(player, "Name", "NameString (TEXT)", "Description", "hint (OPTIONAL)")
+	end
+end)
+```
+
+Now, to *test* if it works, create a button. this can be designed as anything you want. I'd make it simple since this is just a test.
+Insert a [LocalScript](https://create.roblox.com/docs/reference/engine/classes/LocalScript) into your button, and copy this code into it:
+
+```lua
+script.Parent.MouseButton1Click:Connect(function()
+	game:GetService("ReplicatedStorage").WhateverYouNamedTheEndingRemoteAs:FireServer("EndingName")
+end)
+```
+That should work! Test it out to see if it works.
+
+## Custom Ending UI/Teleport Screen
+
+This one's pretty simple to do! Here's how to do it:
+
+Inside the EndingsModule, there should be 2 ScreenGuis, the TeleportScreen, and the EndingGUI.
+Put the one you want to edit first inside StarterGui, then customize it however you want!
+
+**if you're editing the EndingGUI, do NOT re-name or delete any of the labels, buttons, or frames. For the TeleportScreen, you can add whatever you'd like.**
+
+*Make sure to put them back inside the EndingsModule once you're done.*
+
+That should be it!
+
+
