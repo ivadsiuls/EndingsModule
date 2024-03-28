@@ -75,7 +75,7 @@ That should work! Test it out to see if it works.
 
 This one's pretty simple to do! Here's how to do it:
 
-Inside the EndingsModule, there should be 2 ScreenGuis, the TeleportScreen, and the EndingGUI.
+Inside the EndingsModule, there should be 2 [ScreenGuis](https://create.roblox.com/docs/reference/engine/classes/ScreenGui), the TeleportScreen, and the EndingGUI.
 Put the one you want to edit first inside StarterGui, then customize it however you want!
 
 **if you're editing the EndingGUI, do NOT re-name or delete any of the labels, buttons, or frames. If you do, EndingsModule will break.**
