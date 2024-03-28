@@ -30,7 +30,7 @@ local badges = {
 }
 ```
 
-set the PLACE_ID variable to the PlaceId of your game's place that you'll be re-teleported to.
+set the PLACE_ID variable to the PlaceId of your game's place that you'll be re-teleported to once you press the rejoin button.
 
 Inside the "badges" table, add the name of your ending, then the BadgeId you want for it. Something like this:
 
