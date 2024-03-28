@@ -8,6 +8,8 @@ Follow the creator 😎: [@ivadsiuls](https://www.roblox.com/users/5048508312/pr
 
 ## How 2 Set Up
 
+**Make sure ALLOW THIRD PARTY TELEPORTS is enabled on your experience**
+
 Download the [latest release](https://github.com/ivadsiuls/EndingsModule/releases)
 
 Once downloaded, place it into ServerScriptService, or ReplicatedStorage
