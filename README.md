@@ -27,3 +27,13 @@ local badges = {
 	TestEnding = 2780397641298388;
 }
 ```
+
+set the PLACE_ID variable to the PlaceId of your game's place that you'll be re-teleported to.
+
+Inside the "badges" table, add the name of your ending, then the BadgeId you want for it. Something like this:
+
+```lua
+local badges = {
+	TestEnding = 2780397641298388;
+}
+```
