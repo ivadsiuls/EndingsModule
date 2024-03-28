@@ -16,7 +16,7 @@ Remember, EndingsModule cannot be used inside the client to prevent cheating.
 
 Go into the EndingsModule, you should see this:
 
-```
+```lua
 local TweenService = game:GetService("TweenService")
 local TweenInformation = TweenInfo.new(1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out, 0, false, 0)
 local TeleportService = game:GetService("TeleportService")
