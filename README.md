@@ -59,7 +59,7 @@ game:GetService("ReplicatedStorage").PutTheNameOfYourRemoteHere.OnServerEvent:Co
 end)
 ```
 
-Now, to *test* if it works, create a button. this can be designed as anything you want. I'd make it simple since this is just a test.
+Now, to **test** if it works, create a button. this can be designed as anything you want. I'd make it simple since this is just a test.
 Insert a [LocalScript](https://create.roblox.com/docs/reference/engine/classes/LocalScript) into your button, and copy this code into it:
 
 ```lua
