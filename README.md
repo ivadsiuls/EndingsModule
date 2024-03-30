@@ -1,7 +1,7 @@
 # EndingsModule
 EndingsModule is an easy-to-use, Open Source [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) for [ROBLOX](https://roblox.com/) to make creating story-type games easier.
 
-Follow the creator 😎: [@ivadsiuls](https://www.roblox.com/users/5048508312/profile)
+**PLS** Follow the creator 😎: [@ivadsiuls](https://www.roblox.com/users/5048508312/profile)
 
 
 **Basic knowledge of Roblox Studio and Lua is expected.**
