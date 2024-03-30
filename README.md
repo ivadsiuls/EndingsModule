@@ -6,6 +6,8 @@ Follow the creator 😎: [@ivadsiuls](https://www.roblox.com/users/5048508312/pr
 
 **Basic knowledge of Roblox Studio and Lua is expected.**
 
+*if you'd like to help this project become even better, you're free to fork it!*
+
 ## How 2 Set Up
 
 **Make sure ALLOW THIRD PARTY TELEPORTS is enabled on your experience**
