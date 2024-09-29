@@ -1,4 +1,6 @@
 # EndingsModule
+### ⚠️ EndingsModule is DISCONTINUED, I do not reccomend using it. I was an amateur developer when I created it, and alot of the code could be HEAVILY optimized.
+
 EndingsModule is an easy-to-use, Open Source [ModuleScript](https://create.roblox.com/docs/reference/engine/classes/ModuleScript) for [ROBLOX](https://roblox.com/) to make creating story-type games easier.
 
 Follow the creator 😎: [@ivadsiuls](https://www.roblox.com/users/5048508312/profile)
